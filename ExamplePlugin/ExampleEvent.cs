@@ -31,7 +31,7 @@ namespace ExamplePlugin
     [EventClass]
     public class ExampleEvent
     {
-        // Let the Handler loader know that this is an LoginHandler
+        // Let the Event loader know that this is an Login Event
         [Event(EventType.BanchoLoginRequest)]
         public void SomeLoginHandler(BanchoLoginRequestArgs args)
         {
